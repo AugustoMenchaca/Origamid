@@ -1,0 +1,25 @@
+#Logo-topo{
+    width: 30rem;
+}
+.links-site{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.links-site a{
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: rgb(193, 193, 6);
+    border-radius: 5rem;
+    color: black;
+}
+.links:hover{
+    background-color: black;
+    color: rgb(193, 193, 6);
+    padding: 1rem 2.5rem;
+    transition: 0.5s;
+}
+.links:active{
+    background-image: linear-gradient(black,#FFD700);
+}

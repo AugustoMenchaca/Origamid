@@ -1,0 +1,19 @@
+
+.estados{
+    color: seagreen;
+    font-size: 25px;
+    text-decoration: none;
+}
+.hj{
+    color: darkred;
+}
+.amn{
+    color: darkblue;
+}
+.inc{
+    text-decoration: none;
+    
+}
+body{
+    font-family: Arial;
+}

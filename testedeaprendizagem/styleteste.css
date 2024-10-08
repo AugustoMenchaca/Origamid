@@ -1,0 +1,73 @@
+body{
+    background-image: url(imagens/forest.jpg);
+    background-size: cover;
+    font-family: Arial;
+}
+.principal{
+    background-color: rgb(0, 0, 0 , 0.60);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 100px auto 100px;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 90px;
+    color: rgb(18, 205, 18);
+    grid-column: 1/-1;
+    text-align: center;
+}
+.item{
+    max-width: 100%;
+    grid-column: 1;
+    text-align: center;
+}
+.texto{
+    grid-column: 2;
+    padding: 0px 40px;
+    color: seagreen;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.comprar{
+    padding: 20px 50px;
+    color: white;
+    background-color: #854836;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+}
+.divcomprar{
+    grid-column: 2;
+    justify-self: center;
+}
+.paragrafo{
+    display: grid;
+    place-items: center;
+}
+.preço{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+}
+.promoção{
+    grid-column: 2;
+    padding: 20px;
+}
+#antigo{
+    text-decoration: line-through;
+    color: rgb(255,0,0,0.80);
+}
+#preçoa{
+    color: rgb(255, 0, 0,);
+}
+#novo{
+    font-size: 50px;
+}
+.preçon{
+    color: green;
+    height: fit-content;
+    font-size: 35px;
+}
